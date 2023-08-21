@@ -135,4 +135,5 @@ function love.draw()
   love.graphics.rectangle("fill", pad.x, pad.y, pad.width, pad.length)
   love.graphics.rectangle("fill", padSec.x, padSec.y, padSec.width, padSec.length)
   love.graphics.rectangle("fill", ball.x, ball.y, ball.width, ball.length)
+  love.graphics.print("[ P1:"..pad.win.. " | P2:"..padSec.win.. " ]", 370, 0)
 end
